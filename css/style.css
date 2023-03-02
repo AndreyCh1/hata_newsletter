@@ -1,0 +1,154 @@
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #24242b;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #24242b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header,
+.footer {
+    width: 100%;
+    /* margin: 0; */
+    background-color: #dcdce5;
+}
+
+.wrapper {
+    /* margin: 0; */
+    max-width: 600px;
+    background-color: #ffffff;
+}
+
+.head {
+    padding: 12px 30px;
+}
+
+.phone {
+    font-size: 16px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.phone_text {
+    font-size: 13px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+    text-align: right;
+}
+
+.scope {
+    padding: 35px 30px;
+}
+
+.scope p {
+    /* width: 540px; */
+    font-size: 14px;
+    color: #666666;
+}
+
+.button_about_company {
+    display: inline-block;
+    width: 130px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #fd8300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.our_services {
+    padding: 35px;
+    background-color: #ededf5;
+    text-align: center;
+}
+
+.our_services p {
+    margin: 0;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #24242b;
+    text-align: center;
+}
+
+.house_in_montreal,
+.house_in_edmonton,
+.house_in_calgary {
+    padding: 25px 30px;
+}
+
+.offers p {
+    font-size: 13px;
+    color: #9999a6;
+}
+
+.special_action {
+    padding: 35px 0;
+    background-color: #fd8300;
+    text-align: center;
+}
+
+.discount {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.promotion_rules {
+    width: 540px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button_registration {
+    display: inline-block;
+    width: 170px;
+    padding: 13px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #1f1f56;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rgrdgrg {
+    width: 600px;
+    font-size: 13px;
+    color: #9999a6;
+    text-align: center;
+    background-color: #08081a;
+}
+
+.ergergerge {
+    padding: 17px 0;
+    background-color: #000014;
+    text-align: center;
+}
+
+.ergergerge a {
+    font-size: 11px;
+    color: #fd8300;
+}
