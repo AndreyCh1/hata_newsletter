@@ -6,6 +6,8 @@ h1 {
 }
 
 h2 {
+    margin: 0;
+    margin-bottom: 15px;
     font-size: 16px;
     line-height: 24px;
     color: #1f1f56;
@@ -20,15 +22,22 @@ h3 {
     text-align: center;
 }
 
+table {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
 .header,
 .footer {
     width: 100%;
-    /* margin: 0; */
     background-color: #dcdce5;
 }
 
+.main {
+    background-color: #f5f5f5;
+}
+
 .wrapper {
-    /* margin: 0; */
     max-width: 600px;
     background-color: #ffffff;
 }
@@ -37,14 +46,26 @@ h3 {
     padding: 12px 30px;
 }
 
+.contacts {
+    padding-right: 30px;
+    text-align: right;
+}
+
 .phone {
+    display: inline-block;
+    margin-bottom: 5px;
     font-size: 16px;
     color: #25252c;
     font-weight: bold;
     text-decoration: none;
 }
 
+.phone img {
+    margin-right: 8px;
+}
+
 .phone_text {
+    margin: 0;
     font-size: 13px;
     color: #9999a6;
     font-style: italic;
@@ -57,14 +78,12 @@ h3 {
 }
 
 .scope p {
-    /* width: 540px; */
     font-size: 14px;
     color: #666666;
 }
 
 .button_about_company {
     display: inline-block;
-    width: 130px;
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
@@ -76,23 +95,35 @@ h3 {
 }
 
 .our_services {
-    padding: 35px;
+    padding: 20px;
     background-color: #ededf5;
     text-align: center;
 }
 
-.our_services p {
+.our_service {
+    padding: 5px;
+    background-color: #ededf5;
+}
+
+.our_service p {
     margin: 0;
     padding-top: 8px;
     font-size: 14px;
-    color: #24242b;
+    color: #666666;
     text-align: center;
 }
 
-.house_in_montreal,
-.house_in_edmonton,
-.house_in_calgary {
-    padding: 25px 30px;
+.houses {
+    padding: 25px 10px;
+    vertical-align: top;
+}
+
+.houses p {
+    padding-right: 10px;
+}
+
+.offers {
+    padding: 0 20px;
 }
 
 .offers p {
@@ -103,6 +134,7 @@ h3 {
 .special_action {
     padding: 35px 0;
     background-color: #fd8300;
+    background-image: url(../images/container.png);
     text-align: center;
 }
 
@@ -115,7 +147,7 @@ h3 {
 }
 
 .promotion_rules {
-    width: 540px;
+    padding: 0 100px;
     font-size: 13px;
     color: #ffffff;
     text-align: center;
@@ -135,20 +167,25 @@ h3 {
 }
 
 .rgrdgrg {
+    padding: 30px 0 12px;
+    background-color: #08081a;
+    text-align: center;
+}
+
+.svdfvfv {
     width: 600px;
     font-size: 13px;
     color: #9999a6;
-    text-align: center;
     background-color: #08081a;
-}
-
-.ergergerge {
-    padding: 17px 0;
-    background-color: #000014;
     text-align: center;
 }
 
+.ergergerge,
 .ergergerge a {
+    padding: 17px 0;
     font-size: 11px;
     color: #fd8300;
+    background-color: #000014;
+    text-align: center;
+    text-decoration: none;
 }
