@@ -28,7 +28,7 @@ table {
 }
 
 hr {
-    bottom: none;
+    border: none;
     border-top-color: #e3e3eb;
     border-top-width: 1px;
     border-top-style: solid;
