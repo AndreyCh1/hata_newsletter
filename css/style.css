@@ -124,6 +124,11 @@ hr {
     vertical-align: top;
 }
 
+.houses a {
+    color: #1f1f56;
+    text-decoration: none;
+}
+
 .houses p {
     padding-right: 10px;
 }
@@ -176,6 +181,10 @@ hr {
     padding: 30px 0 12px;
     background-color: #08081a;
     text-align: center;
+}
+
+.rgrdgrg a {
+    padding-right: 6px;
 }
 
 .svdfvfv {
