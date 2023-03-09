@@ -14,6 +14,7 @@ h2 {
 }
 
 h3 {
+    display: inline-block;
     margin: 0;
     padding-top: 20px;
     font-size: 14px;
@@ -101,19 +102,27 @@ hr {
 }
 
 .our_services {
-    padding: 20px;
+    padding: 10px;
     background-color: #ededf5;
     text-align: center;
 }
 
 .our_service {
-    padding: 5px;
     background-color: #ededf5;
 }
 
+.our_services img {
+    padding: 25px 73px;
+}
+
+.our_services h3 {
+    padding: 0 29px;
+}
+
 .our_service p {
+    display: inline-block;
     margin: 0;
-    padding-top: 8px;
+    padding: 8px 18px 0;
     font-size: 14px;
     color: #666666;
     text-align: center;
