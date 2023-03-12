@@ -1,12 +1,13 @@
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 24px;
     color: #24242b;
     font-weight: bold;
 }
 
 h2 {
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 24px;
@@ -15,8 +16,8 @@ h2 {
 
 h3 {
     display: inline-block;
-    margin: 0;
-    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     color: #24242b;
     font-weight: bold;
@@ -50,7 +51,10 @@ hr {
 }
 
 .head {
-    padding: 12px 30px;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
 }
 
 .contacts {
@@ -72,7 +76,8 @@ hr {
 }
 
 .phone_text {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 13px;
     color: #9999a6;
     font-style: italic;
@@ -81,7 +86,10 @@ hr {
 }
 
 .scope {
-    padding: 35px 30px;
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    padding-left: 30px;
 }
 
 .scope p {
@@ -89,9 +97,12 @@ hr {
     color: #666666;
 }
 
+.scope a {
+    margin: 10px 0;
+}
+
 .button_about_company {
     display: inline-block;
-    padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
@@ -102,34 +113,48 @@ hr {
 }
 
 .our_services {
-    padding: 10px;
+    padding-top: 35px;
+    padding-right: 23px;
+    padding-bottom: 35px;
+    padding-left: 23px;
     background-color: #ededf5;
     text-align: center;
+}
+
+.our_services td {
+    vertical-align: top;
 }
 
 .our_service {
     background-color: #ededf5;
 }
 
-.our_services img {
-    padding: 25px 73px;
+.our_service_img {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
-.our_services h3 {
-    padding: 0 29px;
+.our_service_h3 h3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 
-.our_service p {
-    display: inline-block;
-    margin: 0;
-    padding: 8px 18px 0;
-    font-size: 14px;
+.our_service_p p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 13px;
     color: #666666;
+    vertical-align: top;
     text-align: center;
 }
 
 .houses {
-    padding: 25px 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
     vertical-align: top;
 }
 
@@ -143,7 +168,8 @@ hr {
 }
 
 .offer {
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .offer p {
@@ -152,7 +178,8 @@ hr {
 }
 
 .special_action {
-    padding: 35px 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background-color: #fd8300;
     background-image: url("https://raw.githubusercontent.com/AndreyCh1/hata_newsletter/master/images/container.jpg");
     background-repeat: repeat;
@@ -161,7 +188,8 @@ hr {
 }
 
 .discount {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 24px;
     color: #ffffff;
     font-weight: bold;
@@ -169,7 +197,8 @@ hr {
 }
 
 .promotion_rules {
-    padding: 0 100px;
+    padding-right: 100px;
+    padding-left: 100px;
     font-size: 13px;
     color: #ffffff;
     text-align: center;
@@ -178,7 +207,10 @@ hr {
 .button_registration {
     display: inline-block;
     width: 170px;
-    padding: 13px 25px;
+    padding-top: 13px;
+    padding-right: 25px;
+    padding-bottom: 13px;
+    padding-left: 25px;
     font-size: 14px;
     border-radius: 20px;
     color: #ffffff;
@@ -189,7 +221,8 @@ hr {
 }
 
 .rgrdgrg {
-    padding: 30px 0 12px;
+    padding-top: 30px;
+    padding-bottom: 12px;
     background-color: #08081a;
     text-align: center;
 }
@@ -200,6 +233,7 @@ hr {
 
 .svdfvfv {
     width: 600px;
+    padding-bottom: 13px;
     font-size: 13px;
     color: #9999a6;
     background-color: #08081a;
@@ -208,7 +242,8 @@ hr {
 
 .ergergerge,
 .ergergerge a {
-    padding: 17px 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
     font-size: 11px;
     color: #fd8300;
     background-color: #000014;
